@@ -1,0 +1,86 @@
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img { 
+    border:0;
+}
+input{
+    border:1px solid #b0b0b0;
+    padding:3px 5px 4px;
+    color:#979797;
+    width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border:0;
+}
+/* Custom Styles */
+.head {
+    background-color: #c786c7;
+    text-align: center;
+    padding: 20px;
+}
+body {
+    line-height: 1.5;
+}
+a {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+.blog {
+    width: 600px;
+    margin: 0 auto;
+}
+.time {
+    color: #454ce7;
+    margin: 16px 0;
+    text-transform: uppercase;
+}
+.heading {
+    font-size: 35px;
+    color: black;
+    margin: 15px;
+    text-transform: capitalize;
+}
+.text {
+    font-size: 18px;
+    margin-bottom: 15px;
+
+}
+.footer {
+    background-color: #9090e8;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+}
